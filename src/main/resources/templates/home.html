@@ -2,12 +2,6 @@
 <body>
 
 
-{{^user}}
-<form action="/login" method="post">
-    <input type="text" name="username" size=60 placeholder="Enter Username"/>
-    <button type="submit">Login</button>
-</form>
-{{/user}}
 
 {{#user}}
 <form action="/logout" method="post">
